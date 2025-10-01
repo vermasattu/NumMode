@@ -1,0 +1,91 @@
+# NumMode
+
+NumMode is a lightweight Windows tool that lets you **convert your regular keyboard into a functional numpad** with a single toggle. Ideal for anyone who needs a numpad but doesn’t have one on their keyboard.
+
+---
+
+## Features
+
+- **Toggle Shortcut:** Press `Ctrl + `` (backtick) to switch between normal typing and numpad mode.
+- **Tray Menu Control:** Right-click the tray icon → *Toggle Numpad* or *Exit*.
+- **Visual Status:** Tray tooltip shows whether numpad mode is ✅ ON or ❌ OFF.
+- **True Numpad Mode:** Only the assigned keys work as numpad buttons when active. All other letters are blocked.
+- **Mapped Keys:**
+  - `U I O` → 7 8 9  
+  - `J K L` → 4 5 6  
+  - `M , .` → 1 2 3  
+  - `Space` → 0  
+  - `Enter` → Numpad Enter  
+  - `;` → +  
+  - `/` → −  
+  - `P` → *  
+  - `[` → ÷  
+- **Portable EXE:** Runs without installation; just double-click and the tray icon appears.
+
+---
+
+## Who It’s For
+
+- Users who don’t have a physical numpad on their keyboard.  
+- Data entry operators, accountants, spreadsheet users.  
+- Gamers who want a temporary numpad layout for macros or shortcuts.
+
+---
+
+## How To Use
+
+1. Run `NumMode.exe` → tray icon appears.  
+2. Press `Ctrl + `` to activate numpad mode.  
+   - Tray tooltip changes to ✅ ON.  
+3. Press the same shortcut again to turn it off.  
+   - Tray tooltip changes to ❌ OFF.  
+4. Exit anytime from the tray menu.
+
+---
+
+## Auto-Launch at Windows Startup
+
+To make NumMode start automatically when your PC turns on:
+
+1. Press `Win + R` to open the Run dialog.  
+2. Type `shell:startup` and press Enter (opens your personal Startup folder).  
+3. Copy the `NumMode.exe` file (or a shortcut) into this folder.  
+4. Next time you start your PC, NumMode will launch automatically in the tray.
+
+---
+
+## Why It’s Useful
+
+Many keyboards don’t include a numpad. NumMode gives you a **virtual numpad layer** without changing your hardware — simple, fast, and efficient.
+
+---
+
+## Download & Installation
+
+1. Download [`NumMode.exe`](https://github.com/vermasattu/NumMode) from this repository.  
+2. Double-click to run → tray icon appears.  
+3. Use `Ctrl + `` to toggle numpad mode.
+
+---
+
+## Notes
+
+- The app is fully portable and can be placed in Startup to auto-launch with Windows.  
+- You can customize the tray icon using your own `.ico` files.  
+- Only letters are blocked in numpad mode; other keys (arrows, numbers, system keys) work normally.
+
+---
+
+## Support
+
+If you like NumMode and want to support its development, you can buy me a coffee: [https://www.buymeacoffee.com/SatSin](https://www.buymeacoffee.com/SatSin) ☕  
+
+---
+
+## License
+
+MIT License — feel free to use, modify, and distribute.
+
+---
+
+Created by **Satnam Singh** | GitHub Repository: [https://github.com/vermasattu/NumMode](https://github.com/vermasattu/NumMode)

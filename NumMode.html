@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumMode - Keyboard to Numpad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #27ae60;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        ul, ol {
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        code {
+            background-color: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .warning {
+            color: #c0392b;
+            font-weight: bold;
+        }
+        .button {
+            display: inline-block;
+            margin: 5px 0;
+            padding: 8px 15px;
+            background-color: #27ae60;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .button:hover {
+            background-color: #219150;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>NumMode</h1>
+    <p>Convert your keyboard into a functional numpad with a single toggle!</p>
+</header>
+
+<main>
+
+    <h2>Features</h2>
+    <ul>
+        <li><span class="highlight">Toggle Shortcut:</span> Press <code>Ctrl + `</code> to switch between normal typing and numpad mode.</li>
+        <li><span class="highlight">Tray Menu Control:</span> Right-click the tray icon → <em>Toggle Numpad</em> or <em>Exit</em>.</li>
+        <li><span class="highlight">Visual Status:</span> Tray tooltip shows whether numpad mode is ✅ ON or ❌ OFF.</li>
+        <li><span class="highlight">True Numpad Mode:</span> Only assigned keys work as numpad buttons; all other letters are blocked.</li>
+        <li><span class="highlight">Mapped Keys:</span>
+            <ul>
+                <li><code>U I O</code> → 7 8 9</li>
+                <li><code>J K L</code> → 4 5 6</li>
+                <li><code>M , .</code> → 1 2 3</li>
+                <li><code>Space</code> → 0</li>
+                <li><code>Enter</code> → Numpad Enter</li>
+                <li><code>;</code> → +</li>
+                <li><code>/</code> → −</li>
+                <li><code>P</code> → *</li>
+                <li><code>[</code> → ÷</li>
+            </ul>
+        </li>
+        <li><span class="highlight">Portable EXE:</span> Runs without installation.</li>
+    </ul>
+
+    <h2>Who It’s For</h2>
+    <ul>
+        <li>Users who don’t have a physical numpad.</li>
+        <li>Data entry operators, accountants, spreadsheet users.</li>
+        <li>Gamers who want a temporary numpad layout.</li>
+    </ul>
+
+    <h2>How To Use</h2>
+    <ol>
+        <li>Run <code>NumMode.exe</code> → tray icon appears.</li>
+        <li>Press <code>Ctrl + `</code> to activate numpad mode (<span class="highlight">ON ✅</span>).</li>
+        <li>Press again to turn off (<span class="warning">OFF ❌</span>).</li>
+        <li>Exit anytime from the tray menu.</li>
+    </ol>
+
+    <h2>Auto-Launch at Windows Startup</h2>
+    <ol>
+        <li>Press <code>Win + R</code> and type <code>shell:startup</code>, then press Enter.</li>
+        <li>Copy <code>NumMode.exe</code> (or a shortcut) into the Startup folder.</li>
+        <li>NumMode will launch automatically on PC startup.</li>
+    </ol>
+
+    <h2>Download & Support</h2>
+    <p>
+        Download the app from <a href="https://github.com/vermasattu/NumMode">GitHub Repository</a>.
+    </p>
+    <p>
+        If you like NumMode, you can support the development here: 
+        <a class="button" href="https://www.buymeacoffee.com/SatSin" target="_blank">Buy Me a Coffee ☕</a>
+    </p>
+
+    <h2>License</h2>
+    <p>MIT License — feel free to use, modify, and distribute.</p>
+
+</main>
+
+<footer>
+    <p>Created by <strong>Satnam Singh</strong> | GitHub: <a href="https://github.com/vermasattu">https://github.com/vermasattu</a></p>
+</footer>
+
+</body>
+</html>
